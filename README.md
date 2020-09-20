@@ -17,3 +17,5 @@ Additional categories can be defined with `categories=my-new-category>Part [AB]/
 ## Category syntax
 List of `category name>slash-separated lua patterns`, separated by semicolons.  
 A `+` can also be used instead of `>`.
+
+Index-based skips are possible by starting your category name with `idx-`. All patterns will be treated as integers. Chapter indexes start at 1.
