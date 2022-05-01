@@ -15,7 +15,7 @@ local options = {
     enabled = true,
     skip_once = true,
     categories = "",
-    skip = "opening";"ending";"preview";"credits";
+    skip = "opening";"ending",
 }
 
 mp.options = require "mp.options"
