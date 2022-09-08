@@ -5,7 +5,10 @@ Automatically skips chapters based on title.
 Place chapterskip.lua in your mpv `scripts` folder.
 
 ## Usage
-Select which categories to skip with `script-opts=chapterskip-skip=opening;ending;more;categories` in your `mpv.conf`  
+Select which categories to skip.  
+Globally: `script-opts/chapterskip.conf` > `skip=opening;ending;more;categories`  
+Within an auto profile: `mpv.conf` > `script-opts=chapterskip-skip=opening;ending;more;categories`
+
 The default categories are:
 - prologue
 - opening
